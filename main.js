@@ -1,4 +1,4 @@
-const clickMenu = document.getElementById('header-right');
+const clickMenu = document.querySelector('.header-right');
 clickMenu.addEventListener('click', function() {
-    alert('funziona')
+    alert('funziona');
 });
